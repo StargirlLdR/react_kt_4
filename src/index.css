@@ -10,7 +10,6 @@ body {
   min-height: 100vh;
 }
 
-/* Стили для сетки товаров */
 .products-page {
   width: 85%;
   max-width: 1200px;
@@ -28,14 +27,12 @@ body {
   font-size: 2.5rem;
 }
 
-/* Стили для сетки товаров */
 .products-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 25px;
 }
 
-/* Стили для каждого товара */
 .product-item {
   background-color: #ffffff;
   padding: 20px;
@@ -66,16 +63,11 @@ body {
   text-decoration: none;
 }
 
-.product-item a:hover {
-  text-decoration: underline;
-}
 
-/* Стили для рейтинга */
 .product-item .rating {
   margin-top: 10px;
 }
 
-/* Стили для страницы с деталями товара */
 .product-detail {
   width: 90%;
   max-width: 800px;
@@ -131,7 +123,6 @@ body {
   transform: scale(1.05);
 }
 
-/* Стили для страницы NotFoundPage */
 .not-found {
   display: flex;
   flex-direction: column;
@@ -160,7 +151,6 @@ body {
   transform: scale(1.05);
 }
 
-/* Отзывчивость */
 @media (max-width: 768px) {
   .products-grid {
       grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
