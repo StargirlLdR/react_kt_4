@@ -38,12 +38,10 @@ body {
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-  transition: transform 0.4s, box-shadow 0.4s;
   text-align: center;
 }
 
 .product-item:hover {
-  transform: translateY(-8px);
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.25);
 }
 
@@ -52,7 +50,6 @@ body {
   color: #007bff;
   margin: 10px 0;
   text-decoration: none;
-  transition: color 0.4s;
 }
 
 .product-item h3:hover {
@@ -105,7 +102,6 @@ body {
   margin-top: 20px;
 }
 
-/* Кнопка "Назад" */
 .product-detail button {
   padding: 12px 25px;
   background-color: #007bff;
