@@ -110,13 +110,12 @@ body {
   border-radius: 8px;
   font-size: 18px;
   cursor: pointer;
-  transition: background-color 0.4s, transform 0.3s;
   margin-top: 25px;
 }
 
 .product-detail button:hover {
   background-color: #0056b3;
-  transform: scale(1.05);
+  
 }
 
 .not-found {
@@ -139,24 +138,9 @@ body {
   border-radius: 8px;
   font-size: 18px;
   cursor: pointer;
-  transition: background-color 0.4s, transform 0.3s;
 }
 
 .not-found button:hover {
   background-color: #0056b3;
-  transform: scale(1.05);
 }
 
-@media (max-width: 768px) {
-  .products-grid {
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  }
-
-  .product-detail img {
-      max-width: 90%;
-  }
-
-  .products-page, .product-detail {
-      padding: 20px;
-  }
-}
